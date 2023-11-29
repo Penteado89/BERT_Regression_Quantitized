@@ -4,12 +4,6 @@
 ## Overview
 This project involves a detailed exploration of refining encoders in the Transformers architecture, specifically focusing on BERT-like models. The primary goal is to assess the performance of these models in numerical regression tasks and explore solutions for improving their performance in such scenarios. The project uses the B2W review corpus, focusing on the 'review text' column, and involves tasks related to vowel density regression and quantization.
 
-## Installation
-To set up the environment for running this notebook, please ensure Python and the necessary libraries are installed. You can install all required dependencies via the following command:
-```
-pip install -r requirements.txt
-```
-
 ### Prerequisites
 - Python 3.x
 - Jupyter Notebook
