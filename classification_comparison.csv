@@ -1,0 +1,7 @@
+Metric/Class,Task 2 Class 0,Task 2 Class 1,Task 2 Class 2,Task 3 Class 0,Task 3 Class 1,Task 3 Class 2
+Accuracy,0.99,0.99,0.99,0.33,0.33,0.33
+Specificity,1.0,0.0,1.0,1.0,0.0,0.0
+Precision,0.0,0.99,0.0,0.0,0.33,0.0
+Recall,0.0,1.0,0.0,0.0,1.0,0.0
+F1-Score,0.0,1.0,0.0,0.0,0.5,0.0
+Support,9.0,1934.0,1.0,648.0,648.0,648.0
