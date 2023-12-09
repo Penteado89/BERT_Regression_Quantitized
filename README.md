@@ -2,7 +2,7 @@
 # EP02: Transformers Regression and Quantization Project
 
 ## Overview
-This project involves a detailed exploration of refining encoders in the Transformers architecture, specifically focusing on BERT-like models. The primary goal is to assess the performance of these models in numerical regression tasks and explore solutions for improving their performance in such scenarios. The project uses the B2W review corpus, focusing on the 'review text' column, and involves tasks related to vowel density regression and quantization.
+In this research, we explored the adaptability of Transformer-based models, with a focus on BERT (Bidirectional Encoder Representations from Transformers), for tasks beyond their conventional classification applications. The study harnessed the B2W review corpus, analyzing the 'review text’ variable to compute and categorize the proportion of vowels in the text entries. This approach allowed us to investigate how Transformer architectures, typically employed for classification, can be effectively adapted for numerical regression tasks. Our methodology entailed fine-tuning models such as BertForVowelDensityRegression, BertForQuantizedClassification, and BertForBalancedClassification, all derived from the BERTimbau pre-trained model. This enabled the detailed examination of these models' capabilities in handling tasks like vowel density regression and sentence categorization based on quantized vowel density.
 
 ### Prerequisites
 - Python 3.x
@@ -10,11 +10,7 @@ This project involves a detailed exploration of refining encoders in the Transfo
 - Libraries: Pandas, NumPy, PyTorch, Transformers (Hugging Face)
 
 ## Usage
-To use this notebook, navigate to the directory containing `EP02_main.ipynb` and run:
-```
-jupyter notebook EP02_main.ipynb
-```
-Follow the instructions within the notebook to execute the cells.
+To use this notebook, navigate to the directory containing `EP02_main.ipynb` and follow the instructions within the notebook to execute the cells.
 
 ## Notebook Content
 The `EP02_main.ipynb` notebook contains several key components:
@@ -25,7 +21,8 @@ The `EP02_main.ipynb` notebook contains several key components:
 - **Training Regression Models**: Training of BERT models for vowel density regression.
 - **Testing Regression Models**: Evaluation of the trained regression models.
 - **Training and Testing Classification Models**: Implementation of quantization tasks for vowel density using classification models.
-
+- **Comparing Task 2 and Task 3**
+  
 ## System Requirements
 - A system with Python 3.x installed.
 - Access to a GPU is recommended for faster computation, but the notebook can also run on a CPU.
@@ -33,9 +30,6 @@ The `EP02_main.ipynb` notebook contains several key components:
 
 ## Contribution
 Contributions to this project are welcome. Please adhere to the project's coding standards and submit pull requests for any enhancements.
-
-## License
-This project is released under the MIT License.
 
 ## Contact
 For any queries or further discussion related to this project, feel free to contact the maintainers.
